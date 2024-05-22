@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2em;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.ss1 {
+    width: 600px;
+    height: 150px;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+.ss1 p {
+    margin-top: px;
+}
+
+
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.form input {
+    width: 70vh;
+    height: 6vh;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
+
+.form textarea {
+    width: 70vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 10px; 
+    border: 1px solid grey;
+}
+
+.form button {
+    width: 70vh;
+    height: 6vh;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(203, 158, 75);
+    color: white;
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+#CM {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+
+}
+
+.ah1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+}
+
+.aboutme {
+    width: 700px;
+    border: 1px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 20px;
+}
